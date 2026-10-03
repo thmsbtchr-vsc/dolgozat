@@ -1,0 +1,70 @@
+body {
+    background-image: url(black.png);
+    background-size: cover;
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    font-size: 10pt;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*Tároló beállítások*/
+
+#tarolo {
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    background-color: rgb(184, 214, 214);
+    padding: 20pt;
+}
+
+/* Fejléc - kép beállítások*/
+
+.fejlec{
+    text-align:center;
+    height: 400px;
+}
+
+.fejlec img {
+    width:100%;
+}
+
+/* Menü beállítása*/
+
+#nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    background-color: rgb(90, 62, 62); 
+    margin-bottom: 10pt;
+}
+
+#nav a {
+    text-decoration: none;
+    background-color: rgb(90, 62, 62);  
+    color: white;
+}
+
+/* Egér fölé vitel*/
+
+#nav a:hover{
+    background-color: rgba(204, 77, 38, 0.945);
+    color: rgb(231, 117, 40);
+}
+
+.tartalom{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    align-items: start;
+}
+.tartalom img {
+    width: 300px;
+    height: auto;
+    padding: 2pt;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
